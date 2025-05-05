@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Settings, Tool, TrendingUp, Clock, Truck, HeadphonesIcon } from 'lucide-react';
+import { Settings, Wrench, TrendingUp, Clock, Truck, HeadphonesIcon } from 'lucide-react';
 
 const services = [
   {
@@ -13,7 +13,7 @@ const services = [
     id: 2,
     title: "Technical Support",
     description: "Expert advice and technical support for all products",
-    icon: <Tool className="w-12 h-12 text-sreeblue" />
+    icon: <Wrench className="w-12 h-12 text-sreeblue" />
   },
   {
     id: 3,
